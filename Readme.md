@@ -7,7 +7,7 @@
 This project has a fully functioning Sudoku solver that runs from the command line.  It can solve for all the 15 puzzles presented in the `sudoku_puzzles.txt` file.
 
  * The first five puzzles can be solved with **basic logic**.
- * The second five require slightly more **advanced logic**.
+ * The following five require slightly more **advanced logic**.
  * The last five require **educated guessing**.
  
 A complete solution to this challenge will solves for 15 puzzles.
