@@ -1,16 +1,19 @@
 /*
 *SUDOKU SOLVER: 
-*@param{string}s
-*@return{array}[][]
 */
 
-var str = "1-58-2----9--764-52--4--819-19--73-6762-83-9-----61-5---76---3-43--2-5-16--3-89--";
-var hardestSudoku = "8----------36------7--9-2---5---7-------457-----1---3---1----68--85---1--9----4--"
+let readline = require('linebyline');
+let rl = readline('./sudoku_puzzles.txt');
+let grid = [];
 
-var arr = str.split('');
-printUnsolvedGrid(arr);
-var grid = convertStringToArray(arr);
-solver(grid);
+rl.on('line', (line, lineCount, byteCount) => {
+    let arr = line.split('');
+    printUnsolvedGrid(arr);
+    grid = convertStringToArray(arr);
+    solver(grid);
+});
+
+
 
 function solver(sudokuGrid) {
     var positionArray = [];
@@ -55,7 +58,7 @@ function solver(sudokuGrid) {
             }
         }
 
-        if(!progressing && storedPossibilities){
+        if (!progressing && storedPossibilities) {
 
         }
 

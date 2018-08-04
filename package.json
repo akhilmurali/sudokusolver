@@ -1,0 +1,30 @@
+{
+  "name": "sudokusolver",
+  "version": "0.1.0",
+  "description": "A command line solver for sudoku puzzles",
+  "main": "sudoku.js",
+  "dependencies": {
+    "linebyline": "^1.3.0",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon sudoku.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhilmurali/sudokusolver.git"
+  },
+  "keywords": [
+    "sudoku"
+  ],
+  "author": "Akhil Murali <github@akhilmurali.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akhilmurali/sudokusolver/issues"
+  },
+  "homepage": "https://github.com/akhilmurali/sudokusolver#readme"
+}
