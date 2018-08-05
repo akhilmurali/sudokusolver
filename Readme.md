@@ -10,5 +10,10 @@ This project has a fully functioning Sudoku solver that runs from the command li
  * The following five require slightly more **advanced logic**.
  * The last five require **educated guessing**.
  
-A complete solution to this challenge will solves for 15 puzzles.
+A complete solution to this challenge will solve for 15 puzzles.
 
+To start the project:
+
+1. run npm install or npm i
+
+2. run npm start or node sudoku.js
